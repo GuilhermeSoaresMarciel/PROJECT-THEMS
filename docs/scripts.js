@@ -24,3 +24,5 @@ if (m_hours >= 5 && m_hours < 12) {
   frase.textContent = "Como estão as estrelas?";
   main_img.src = "./assets/bg-v1.png";
 }
+
+new Audio("./assets/music.mp3").play();
