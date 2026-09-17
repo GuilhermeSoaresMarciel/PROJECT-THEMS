@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: cornflowerblue;
+
+  gap: 20px;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+header span {
+  font-size: 40px;
+}
+
+.Card {
+  background-color: white;
+
+  max-width: 350px;
+  width: 100%;
+
+  border-radius: 8px;
+
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer p a {
+  text-decoration: none;
+
+  color: black;
+
+  font-weight: bold;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
