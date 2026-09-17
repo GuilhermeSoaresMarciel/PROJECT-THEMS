@@ -1,4 +1,4 @@
-const Hors = new Date();
+const Hors = new Date().getHours();
 
 const body = document.body;
 const title = document.querySelector("h3");
