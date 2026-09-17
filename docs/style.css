@@ -49,6 +49,23 @@ header span {
   gap: 12px;
 }
 
+#periodo {
+  background-color: #b9b9b9;
+
+  border-radius: 12px;
+  padding: 6px;
+}
+
+#fotoPaisagem {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+
+  border-radius: 100%;
+
+  object-fit: cover;
+}
+
 footer p {
   font-size: 12px;
 }
