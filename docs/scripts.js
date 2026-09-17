@@ -24,7 +24,3 @@ if (Hors >= 0 && Hors < Hors < 12) {
   frase.textContent = "Que linhas estao as estrellas";
   main_img.src = "./assets/bg-v1.png";
 }
-
-onload(() => {
-  alert("test");
-});
